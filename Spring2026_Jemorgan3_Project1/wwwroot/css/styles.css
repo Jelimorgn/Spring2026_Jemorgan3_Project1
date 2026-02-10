@@ -1,0 +1,72 @@
+﻿/* Entire page background + text color */
+body {
+    background-color: #0b132b;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Center all content */
+div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Title styling */
+#Title {
+    margin-top: 30px;
+    font-size: 48px;
+}
+
+/* Circular cover art */
+#CoverArt {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 20px 0;
+}
+
+/* Rating spacing */
+#Rating {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+/* Trailer spacing */
+#Trailer {
+    margin: 25px 0;
+}
+
+/* Summary text width */
+#Summary {
+    width: 60%;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+/* Actor list */
+#Actors {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+    #Actors li {
+        font-size: 16px;
+    }
+
+/* IMDb link */
+a {
+    color: #5bc0be;
+    font-size: 18px;
+    text-decoration: none;
+    margin-bottom: 40px;
+}
+
+    a:hover {
+        text-decoration: underline;
+    }
